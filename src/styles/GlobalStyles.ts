@@ -12,6 +12,8 @@ export const GlobalStyles = createGlobalStyle`
         height: 100vh;
         overflow-x: hidden;
         font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+        position: relative;
     }
 
     h1,

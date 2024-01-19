@@ -24,6 +24,26 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Rubik', sans-serif;
         font-size: 15px;
         position: relative;
+        & > svg  {
+            position: absolute;
+            z-index: 1000;
+            top: 20px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            & > path {
+                fill: #fff6f6;
+            }
+        }
+        @media (max-width: 768px ) {
+            & > svg {
+                width: 120px;
+            }
+        }
+        @media (min-width: 769px) {
+            & > svg {
+                width: 181px;
+            }
+        }
     }
 
     h1,

@@ -1,6 +1,16 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+    @font-face {
+        font-family: 'Obviously';
+        src: url('../assets/Obviously-Regular.otf') format('opentype');
+    }
+
+    @font-face {
+        font-family: 'ObviouslyNarrow';
+        src: url('../assets/ObviouslyNarrow-Regular.otf') format('opentype');
+    }
+
     * {
         margin: 0;
         padding: 0;

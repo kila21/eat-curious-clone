@@ -21,7 +21,7 @@ const SharedButtonStyled = styled.button<{
   background-color: ${(props) => props.$bc};
   color: ${(props) => props.$textColor};
   font-size: ${(props) => props.$fs};
-  font-family: "ObviouslyNarrow";
+  font-family: "ObviouslyNarrow", Helvetica, sans-serif;
   font-weight: 800;
   text-transform: uppercase;
 
@@ -31,5 +31,4 @@ const SharedButtonStyled = styled.button<{
   border-radius: 5px;
   border: none;
   padding: 10px;
-  letter-spacing: -1px;
 `;

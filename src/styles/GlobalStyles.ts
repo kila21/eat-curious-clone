@@ -3,12 +3,12 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
     @font-face {
         font-family: 'Obviously';
-        src: url('../assets/Obviously-Regular.otf') format('opentype');
+        src: url('../fonts/Obviously-Regular.otf') format('opentype');
     }
 
     @font-face {
         font-family: 'ObviouslyNarrow';
-        src: url('../assets/ObviouslyNarrow-Regular.otf') format('opentype');
+        src: url('../fonts/ObviouslyNarrow-Regular.otf') format('opentype');
     }
 
     * {

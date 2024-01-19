@@ -12,7 +12,7 @@ function App() {
         <span></span>
         <span></span>
       </BurgerBar>
-      <MobileMenu></MobileMenu>
+      <MobileMenu isOpen={isOpen}></MobileMenu>
     </>
   );
 }
@@ -37,7 +37,8 @@ const BurgerBar = styled.div<{ $isOpen: boolean }>`
   & > span {
     width: 20px;
     height: 2px;
-    background-color: white;
+    background-color: ${(props) =>
+      props.$isOpen ? props.theme.colors.white : props.theme.colors.black};
     margin-bottom: 5px;
   }
 

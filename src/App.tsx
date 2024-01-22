@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { MobileMenu } from "./components/navigation/MobileMenu";
 import { Navigation } from "./components/navigation/Navigation";
 import { Logo } from "./svg-components/Logo";
+import { Header } from "./components/header/Header";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,7 @@ function App() {
       </BurgerBar>
       <Logo />
       <MobileMenu isOpen={isOpen}></MobileMenu>
+      <Header></Header>
       <Navigation />
     </>
   );

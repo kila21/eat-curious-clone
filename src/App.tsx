@@ -29,14 +29,14 @@ export default App;
 const BurgerBar = styled.div<{ $isOpen: boolean }>`
   display: none;
   @media (max-width: 768px) {
-    z-index: 1;
+    z-index: 10;
     width: 40px;
     height: 40px;
     background-color: ${(props) =>
       props.$isOpen ? props.theme.colors.black : props.theme.colors.pink};
 
     border-radius: 10px;
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     display: flex;

@@ -1,6 +1,13 @@
+import { useEffect } from "react";
 import styled from "styled-components";
 
 export const MobileMenu = (props: { isOpen: boolean }) => {
+  useEffect(() => {
+    const root = document.getElementById("root")!;
+    root.style.overflowY = props.isOpen ? "hidden" : "scroll";
+    return () => {};
+  }, [props.isOpen]);
+
   return props.isOpen ? (
     <MobileMenuContainer>
       <MobileMenuList>
@@ -40,8 +47,8 @@ const MobileMenuContainer = styled.div`
   @media (max-width: 768px) {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
-
+    position: fixed;
+    z-index: 1;
     padding: 20px 0;
     display: flex;
     flex-direction: column;

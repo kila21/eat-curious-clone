@@ -6,7 +6,7 @@ import { Navigation } from "./components/navigation/Navigation";
 import { Logo } from "./svg-components/Logo";
 
 function App() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>

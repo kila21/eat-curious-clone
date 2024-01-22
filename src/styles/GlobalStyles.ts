@@ -24,6 +24,7 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Rubik', sans-serif;
         font-size: 15px;
         position: relative;
+        background-color: ${(props) => props.theme.colors.black};
         & > svg  {
             position: absolute;
             z-index: 1000;
@@ -49,6 +50,6 @@ export const GlobalStyles = createGlobalStyle`
     h1,
     h2,
     h3 {
-        font-family: Helvetica, sans-serif;
+        font-family: 'Obviously', Helvetica, sans-serif;
     }
 `;

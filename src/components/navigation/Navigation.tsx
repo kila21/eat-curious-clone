@@ -38,10 +38,10 @@ const NavigationContainerStyled = styled.div`
   @media (min-width: 769px) {
     display: flex;
     position: fixed;
+    top: 0;
     align-items: center;
     width: 100%;
     height: 100px;
-    background-color: black;
   }
 `;
 

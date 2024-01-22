@@ -5,6 +5,7 @@ import { MobileMenu } from "./components/navigation/MobileMenu";
 import { Navigation } from "./components/navigation/Navigation";
 import { Logo } from "./svg-components/Logo";
 import { Header } from "./components/header/Header";
+import { Carousel } from "./carousel/Carousel";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,7 @@ function App() {
       <MobileMenu isOpen={isOpen}></MobileMenu>
       <Header></Header>
       <Navigation />
+      <Carousel />
     </>
   );
 }

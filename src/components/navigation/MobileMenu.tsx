@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import styled from "styled-components";
+import { Logo } from "../../svg-components/Logo";
 
 export const MobileMenu = (props: { isOpen: boolean }) => {
   useEffect(() => {
@@ -10,6 +11,7 @@ export const MobileMenu = (props: { isOpen: boolean }) => {
 
   return props.isOpen ? (
     <MobileMenuContainer>
+      <Logo />
       <MobileMenuList>
         <MobileMenuItem>
           <a href="#">Products</a>
@@ -54,8 +56,13 @@ const MobileMenuContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-top: 200px;
     background-color: ${(props) => props.theme.colors.pink};
+    & > svg {
+      width: 120px;
+      & > path {
+        fill: ${(props) => props.theme.colors.black};
+      }
+    }
   }
 `;
 

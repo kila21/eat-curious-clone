@@ -9,6 +9,7 @@ import { Carousel } from "./carousel/Carousel";
 
 import data from "./data/home-content-data.json";
 import { HomeContent } from "./shared/HomeContent";
+import { Benefits } from "./components/benefits/Benefits";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,6 +41,7 @@ function App() {
             />
           ))}
       </div>
+      <Benefits />
     </>
   );
 }

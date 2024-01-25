@@ -7,6 +7,9 @@ import { Logo } from "./svg-components/Logo";
 import { Header } from "./components/header/Header";
 import { Carousel } from "./carousel/Carousel";
 
+import data from "./data/home-content-data.json";
+import { HomeContent } from "./shared/HomeContent";
+
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -22,6 +25,21 @@ function App() {
       <Header></Header>
       <Navigation />
       <Carousel />
+      <div style={{ position: "relative", marginTop: "200px" }}>
+        {data &&
+          data.map((comp, index) => (
+            <HomeContent
+              key={index + "content"}
+              title={comp.title}
+              text={comp.text}
+              img={comp.img}
+              color={comp.color}
+              backgroundColor={comp.backgroundColor}
+              index={comp.index}
+              left={index % 2 === 0 ? true : false}
+            />
+          ))}
+      </div>
     </>
   );
 }

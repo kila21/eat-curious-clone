@@ -13,7 +13,7 @@ export const Navigation = () => {
         </NavigationListItem>
 
         <NavigationListItem>
-          <a href="#">products</a>
+          <a href="/products">products</a>
         </NavigationListItem>
       </NavigationList>
 

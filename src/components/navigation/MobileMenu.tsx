@@ -14,7 +14,7 @@ export const MobileMenu = (props: { isOpen: boolean }) => {
       <Logo />
       <MobileMenuList>
         <MobileMenuItem>
-          <a href="#">Products</a>
+          <a href="/products">Products</a>
         </MobileMenuItem>
 
         <MobileMenuItem>

@@ -3,8 +3,15 @@ import { Rolling } from "../../svg-components/Rolling";
 import { HomePageProductsCard } from "./HomePageProductsCard";
 import products from "../../data/products.json";
 import { HomePageFarm } from "./HomePageFarm";
+import { useNavigate } from "react-router";
 
 export const HomePageProducts = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/products");
+  };
+
   return (
     <HomePageProductsStyled>
       <HiddenContainer>
@@ -23,7 +30,7 @@ export const HomePageProducts = () => {
             />
           ))}
       </div>
-      <ProductsButton type="submit">View all</ProductsButton>
+      <ProductsButton onClick={handleClick}>View all</ProductsButton>
       <HomePageFarm />
     </HomePageProductsStyled>
   );

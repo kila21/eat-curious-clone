@@ -37,10 +37,11 @@ const HomePageFarmStyled = styled.div`
 
   @media (min-width: 1025px) {
     position: relative;
+    min-height: 600px;
+    justify-content: flex-end;
     & > .farm-content-container {
       width: 30%;
-      position: absolute;
-      right: 7%;
+      margin-right: 30px;
     }
   }
 
@@ -94,10 +95,9 @@ const FarmImage = styled.img`
   margin-top: 50px;
   margin-bottom: 50px;
   @media (min-width: 1025px) {
-    width: 40%;
+    width: 30%;
     position: absolute;
+    top: 3%;
     left: 5%;
-
-    transform: translateY(50%);
   }
 `;

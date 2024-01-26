@@ -73,6 +73,12 @@ const HiddenContainer = styled.div`
       fill: white;
     }
   }
+
+  @media (min-width: 1600px) {
+    &::before {
+      padding-top: 100%;
+    }
+  }
 `;
 
 const ProductsButton = styled.button`

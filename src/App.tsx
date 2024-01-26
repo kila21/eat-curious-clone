@@ -12,6 +12,7 @@ import { HomeContent } from "./shared/HomeContent";
 import { Benefits } from "./components/benefits/Benefits";
 import { HomePageProducts } from "./components/homePage/HomePageProducts";
 import { FooterCarousel } from "./carousel/FooterCarousel";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +46,7 @@ function App() {
       </div>
       <Benefits />
       <HomePageProducts />
-
+      <Footer />
       <FooterCarousel bc={"#ff73b5"} />
     </>
   );

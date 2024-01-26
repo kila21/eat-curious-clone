@@ -6,21 +6,20 @@ export const FooterCarousel = (props: { bc: string }) => {
     "Dairy Free",
     "Packed With Flavour",
   ];
-  console.log(data, props);
 
   return (
     <FooterCarouselStyled $bc={props.bc}>
       <div className="footer-carousel">
         {data &&
           data.map((item) => {
-            return <span>{item}</span>;
+            return <span key={`${item} + 1`}>{item}</span>;
           })}
       </div>
 
       <div className="footer-carousel second">
         {data &&
           data.map((item) => {
-            return <span>{item}</span>;
+            return <span key={`${item} + 2`}>{item}</span>;
           })}
       </div>
     </FooterCarouselStyled>

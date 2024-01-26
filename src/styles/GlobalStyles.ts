@@ -16,6 +16,9 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+    body {
+        background-color: ${(props) => props.theme.colors.black};
+    }
 
     #root {
         width: 100vw;
@@ -24,7 +27,7 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Rubik', sans-serif;
         font-size: 15px;
         position: relative;
-        background-color: ${(props) => props.theme.colors.black};
+  
         & > svg  {
             position: fixed;
             z-index: 1000;

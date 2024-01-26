@@ -11,6 +11,7 @@ import data from "./data/home-content-data.json";
 import { HomeContent } from "./shared/HomeContent";
 import { Benefits } from "./components/benefits/Benefits";
 import { HomePageProducts } from "./components/homePage/HomePageProducts";
+import { FooterCarousel } from "./carousel/FooterCarousel";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,6 +45,8 @@ function App() {
       </div>
       <Benefits />
       <HomePageProducts />
+
+      <FooterCarousel bc={"#ff73b5"} />
     </>
   );
 }

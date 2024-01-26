@@ -36,6 +36,7 @@ export const Navigation = () => {
 const NavigationContainerStyled = styled.div`
   display: none;
   @media (min-width: 769px) {
+    z-index: 8;
     display: flex;
     position: fixed;
     top: 0;

@@ -26,7 +26,7 @@ function App() {
       </BurgerBar>
       <Logo />
       <MobileMenu isOpen={isOpen}></MobileMenu>
-      <Header></Header>
+      <Header />
       <Navigation />
       <Carousel />
       <div style={{ position: "relative", marginTop: "200px" }}>

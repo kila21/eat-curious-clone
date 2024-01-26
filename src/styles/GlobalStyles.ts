@@ -26,7 +26,7 @@ export const GlobalStyles = createGlobalStyle`
         position: relative;
         background-color: ${(props) => props.theme.colors.black};
         & > svg  {
-            position: absolute;
+            position: fixed;
             z-index: 1000;
             top: 20px;
             left: 50%;

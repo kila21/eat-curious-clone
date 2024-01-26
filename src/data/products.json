@@ -1,0 +1,38 @@
+[
+  {
+    "index": 1,
+    "name": "Curious Pieces",
+    "img": "https://eat-curious.com/wp-content/uploads/2023/02/pieces-11-300x300.png",
+    "backgroundColor": "#1ABE71"
+  },
+  {
+    "index": 2,
+    "name": "Curious Mince",
+    "img": "https://eat-curious.com/wp-content/uploads/2023/02/mince-10-300x300.png",
+    "backgroundColor": "#FFB500"
+  },
+  {
+    "index": 3,
+    "name": "Curious Negg",
+    "img": "https://eat-curious.com/wp-content/uploads/2023/07/negg-e1690228015512-300x275.png",
+    "backgroundColor": "#1ABE71"
+  },
+  {
+    "index": 4,
+    "name": "Curious Tenders",
+    "img": "https://eat-curious.com/wp-content/uploads/2022/11/tenders-3-e1669377993231-300x298.png",
+    "backgroundColor": "#1ABE71"
+  },
+  {
+    "index": 5,
+    "name": "Curious Bangers",
+    "img": "https://eat-curious.com/wp-content/uploads/2022/11/bangers-2-e1668786923894-243x300.png",
+    "backgroundColor": "#F95B77"
+  },
+  {
+    "index": 6,
+    "name": "Curious Fillets",
+    "img": "https://eat-curious.com/wp-content/uploads/2022/11/fillets-3-300x297.png",
+    "backgroundColor": "#1ABE71"
+  }
+]

@@ -32,8 +32,8 @@ export const Benefits = () => {
       </h2>
       <br />
       {data &&
-        data.map((item) => (
-          <SingleBenefit>
+        data.map((item, index) => (
+          <SingleBenefit key={index + " " + item}>
             <SingleBenefitImage src={item.img} alt={item.title} />
             <SingleBenefitTitle>{item.title}</SingleBenefitTitle>
             <SingleBenefitText>{item.text}</SingleBenefitText>

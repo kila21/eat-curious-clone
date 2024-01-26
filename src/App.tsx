@@ -10,6 +10,7 @@ import { Carousel } from "./carousel/Carousel";
 import data from "./data/home-content-data.json";
 import { HomeContent } from "./shared/HomeContent";
 import { Benefits } from "./components/benefits/Benefits";
+import { HomePageProducts } from "./components/homePage/HomePageProducts";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,6 +43,7 @@ function App() {
           ))}
       </div>
       <Benefits />
+      <HomePageProducts />
     </>
   );
 }
@@ -51,7 +53,7 @@ export default App;
 const BurgerBar = styled.div<{ $isOpen: boolean }>`
   display: none;
   @media (max-width: 768px) {
-    z-index: 10;
+    z-index: 1000;
     width: 40px;
     height: 40px;
     background-color: ${(props) =>

@@ -50,7 +50,7 @@ const MobileMenuContainer = styled.div`
     width: 100vw;
     height: 100vh;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     padding: 20px 0;
     display: flex;
     flex-direction: column;

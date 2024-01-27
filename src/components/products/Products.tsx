@@ -91,6 +91,7 @@ export const Products = () => {
 };
 
 const ProductsStyled = styled.div`
+  overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;

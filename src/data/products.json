@@ -3,36 +3,174 @@
     "index": 1,
     "name": "Curious Pieces",
     "img": "https://eat-curious.com/wp-content/uploads/2023/02/pieces-11-300x300.png",
-    "backgroundColor": "#1ABE71"
+    "backgroundColor": "#1ABE71",
+    "page": {
+      "variety": [
+        {
+          "name": "hot % spicy",
+          "text": "Tender delicious juicy protein pieces coated in a hot and spicy glaze. Perfect for those with dietary restrictions, our pieces contain none of the 14 main allergens such as dairy, gluten, soy, and nuts. Our versatile Eat Curious pieces are perfect for a variety of culinary applications including pizza toppings, pies, salad bowls, stir-fry, pasta dishes, curries and more!",
+          "backgroundColor": "#1abe71",
+          "image": "https://eat-curious.com/wp-content/uploads/2023/02/pieces-12-1200x1200.jpg"
+        },
+        {
+          "name": "BBQ",
+          "text": "Tender delicious juicy protein pieces coated in a BBQ glaze. Perfect for those with dietary restrictions, our pieces contain none of the 14 main allergens such as dairy, gluten, soy, and nuts. Our versatile Eat Curious pieces are perfect for a variety of culinary applications including pizza toppings, pies, salad bowls, stir-fry, pasta dishes, curries and more!",
+          "backgroundColor": "#1abe71",
+          "image": "https://eat-curious.com/wp-content/uploads/2023/02/pieces-9-1200x1200.jpg"
+        },
+        {
+          "name": "original",
+          "text": "Tender delicious juicy protein pieces. Perfect for those with dietary restrictions, our pieces contain none of the 14 main allergens such as dairy, gluten, soy, and nuts. Our versatile Eat Curious pieces are perfect for a variety of culinary applications including pizza toppings, pies, salad bowls, stir-fry, pasta dishes, curries and more!",
+          "backgroundColor": "#FFB500",
+          "image": "https://eat-curious.com/wp-content/uploads/2023/02/pieces-10-1200x1200.jpg"
+        }
+      ],
+      "ingredients": "Water, Textured Vegetable Protein (28%) (Pea Protein Concentrate, Faba Protein Concentrate, Salt), Yeast Extract, Colour (Caramel), Black Pepper, Garlic Powder.",
+      "allergens": "For allergens see ingredients in bold.",
+      "storage": "Keep frozen at -18°C or cooler. Important: If food has thawed, do not refreeze.",
+      "instructions": "Cooking Guidelines from Frozen: Remove all packaging. Shallow Fry: Place a small amount of cooking oil into pan. Once oil is hot add required number of pieces to pan and fry over a medium heat for 4 minutes. Oven Cook: Place on a baking tray and cook in a pre-heated oven at 200°C / 180°C Fan Assisted / Gas Mark 4 for approximately 4 minutes. Cooking times may vary. Cook throughout to a minimum temperature of 75°C for 30 seconds or apply national standards.",
+      "weights": "500G",
+      "case": "2kg"
+    }
   },
   {
     "index": 2,
     "name": "Curious Mince",
     "img": "https://eat-curious.com/wp-content/uploads/2023/02/mince-10-300x300.png",
-    "backgroundColor": "#FFB500"
+    "backgroundColor": "#FFB500",
+    "page": {
+      "variety": [
+        {
+          "name": "plain",
+          "text": "Tender, delicious, juicy protein mince, perfect for those with dietary restrictions. Our mince contains no allergens such as dairy, gluten, soy, and nuts. Whether you’re looking to create a classic bolognese, spicy chili, salad bowl or a filling lasagna, Curious Mince is the perfect ingredient for your meal.",
+          "backgroundColor": "#1ABE71",
+          "image": "https://eat-curious.com/wp-content/uploads/2023/02/mince-5-1200x1200.jpg"
+        },
+        {
+          "name": "original",
+          "text": "Tender, delicious, juicy protein mince, perfect for those with dietary restrictions. Our mince contains no allergens such as dairy, gluten, soy, and nuts. Whether you’re looking to create a classic bolognese, spicy chili, salad bowl or a filling lasagna, Curious Mince is the perfect ingredient for your meal.",
+          "backgroundColor": "#FFB500",
+          "image": "https://eat-curious.com/wp-content/uploads/2023/02/mince-6-1200x1200.jpg"
+        },
+        {
+          "name": "tandoori fire",
+          "text": "Tender, delicious, juicy protein mince, perfect for those with dietary restrictions. Our mince contains no allergens such as dairy, gluten, soy, and nuts. Whether you’re looking to create a classic bolognese, spicy chili, salad bowl or a filling lasagna, Curious Mince is the perfect ingredient for your meal.",
+          "backgroundColor": "#1ABE71",
+          "image": "https://eat-curious.com/wp-content/uploads/2023/02/mince-7-1200x1200.jpg"
+        }
+      ],
+      "ingredients": "Water, Textured Vegetable Protein (28%) (Pea Protein Concentrate, Salt).",
+      "allergens": "For allergens see ingredients in bold.",
+      "storage": "Keep frozen at -18°C or cooler. Important: If food has thawed, do not refreeze.",
+      "instructions": "Cooking Guidelines from Frozen: Remove all packaging. Hob: Place a small amount of cooking oil into pan. Once oil is hot add mince to pan and fry over a medium heat for 3-4 minutes. Cooking times may vary. Cook throughout to a minimum temperature of 75°C for 30 seconds or apply national standards.",
+      "weights": "500G",
+      "case": "2KG"
+    }
   },
   {
     "index": 3,
     "name": "Curious Negg",
     "img": "https://eat-curious.com/wp-content/uploads/2023/07/negg-e1690228015512-300x275.png",
-    "backgroundColor": "#1ABE71"
+    "backgroundColor": "#1ABE71",
+    "page": {
+      "variety": [
+        {
+          "name": "liquied negg",
+          "text": "Embrace the deliciousness of our liquid plant based egg that flawlessly replicates the taste and texture of traditional eggs. No cracking or whisking required – just pour and cook! Perfectly suitable for all your favorite egg-based recipes, from fluffy omelets to mouthwatering quiches.",
+          "backgroundColor": "#1ABE71",
+          "image": "https://eat-curious.com/wp-content/uploads/2023/07/negg-2-1200x1200.jpg"
+        }
+      ],
+      "ingredients": "Water, Pea Protein Blend (12.5%) (Pea Protein, Starch, Stabiliser (Carrageenan), Natural Flavourings (Flavouring Preparations, Natural Flavouring Substances (contains Oat Fibre (Gluten Free), Stabiliser (Methyl Cellulose), Acidity Regulator (Ascorbic Acid), Colour (Carotenes)), Sunflower Oil.",
+      "allergens": "For allergens, including Cereals containing Gluten, see ingredients in bold. May Contain Soya and Mustard.",
+      "storage": "Keep frozen at -18°C or cooler. Important: If food has thawed, do not refreeze.",
+      "instructions": "Cooking Guidelines from Defrost: Defrost in fridge for approximately 12-hours. Pour required quantity into a pan and cook on a medium heat. Stir until egg sets to the required texture. The product can be enhanced by adding a small knob of butter finished with a sprinkling of chives. Also ideal for omelettes and quiche, use as required. Cooking times may vary. Cook throughout to a minimum temperature of 75°C for 30 seconds or apply national standards.",
+      "weights": "1KG",
+      "case": "3KG"
+    }
   },
   {
     "index": 4,
     "name": "Curious Tenders",
     "img": "https://eat-curious.com/wp-content/uploads/2022/11/tenders-3-e1669377993231-300x298.png",
-    "backgroundColor": "#1ABE71"
+    "backgroundColor": "#1ABE71",
+    "page": {
+      "variety": [
+        {
+          "name": "breaded",
+          "text": "Eat Curious tenders dusted in a crispy panko crumb, made from a special blend of pea protein and our curious flavours. Perfect to be served as a side, in a wrap or a burger.",
+          "backgroundColor": "#1ABE71",
+          "image": "https://eat-curious.com/wp-content/uploads/2022/12/CuriousTenders_Crop.png"
+        },
+        {
+          "name": "southern fried original",
+          "text": "Eat Curious tenders dusted in a southern-fried coating, made from a special blend of pea protein and our curious flavours. Perfect to be served as a side, in a wrap or a burger.",
+          "backgroundColor": "#1ABE71",
+          "image": "https://eat-curious.com/wp-content/uploads/2022/12/CuriousTenders_Crop.png"
+        }
+      ],
+      "ingredients": "Water, Breading Coating (16%) (Rice Flour, Potato Starch, Tapioca Starch, Salt, Flavour Enhancer (Monosodium Glutamate), Ground Black Pepper, Pepper Blend (Salt, Pepper Extract), Garlic Powder, Onion Powder, Chilli Flakes, Sage Blend (Salt, Flavouring), Maltodextrin, Capsicum Extract), Pea Protein Powder (13%) (Pea Protein, Bamboo Fibre, Emulsifier (Methyl Cellulose), Natural Flavourings (Flavouring Preparations, Natural Flavouring Substances), Stabiliser (Sodium Alginate), Salt), Wheat Flour (contains Calcium Carbonate, Iron, Niacin, Thiamin), Wheat Gluten, Sunflower Oil, Garlic Powder, Smoked Paprika, Salt, Mixed Herbs, Black Pepper, Turmeric.",
+      "allergens": "For allergens, including Cereals containing Gluten, see ingredients in bold. ",
+      "storage": "Keep frozen at -18°C or cooler. Important: If food has thawed, do not refreeze.",
+      "instructions": "From Frozen: Remove all packaging. Deep Fry: Pre-heat fryer to correct temperature. Add product to basket and fry in hot cooking oil (175°C) for 8 minutes. Oven Cook: Brush both sides with cooking oil. Place on a baking tray and cook in a pre-heated oven at 200°C / 180°C Fan Assisted / Gas Mark 4 for 12 minutes. Cooking times may vary. Cook throughout to a minimum temperature of 75°C for 30 seconds or apply national standards.",
+      "weights": "",
+      "case": "3.25KG"
+    }
   },
   {
     "index": 5,
     "name": "Curious Bangers",
     "img": "https://eat-curious.com/wp-content/uploads/2022/11/bangers-2-e1668786923894-243x300.png",
-    "backgroundColor": "#F95B77"
+    "backgroundColor": "#F95B77",
+    "page": {
+      "variety": [
+        {
+          "name": "original",
+          "text": "Our juicy Eat Curious bangers are made from our special pea protein mix, flavoured with sage and parsley. A must have for every fry up and they make a great hotdog and bangers & mash too!",
+          "backgroundColor": "#f95b77",
+          "image": "https://eat-curious.com/wp-content/uploads/2022/12/CuriousBanger_Crop.png"
+        },
+        {
+          "name": "jumbo",
+          "text": "Our juicy Eat Curious jumbo bangers are made from our special pea protein mix, flavoured with sage and parsley. A must have for every fry up and they make a great jumbo hotdog and bangers & mash too!",
+          "backgroundColor": "#f95b77",
+          "image": "https://eat-curious.com/wp-content/uploads/2022/11/bangers-10-1200x1200.jpg"
+        }
+      ],
+      "ingredients": "Water, Pea Protein Powder (13%) (Pea Proteins, Natural Flavouring (Flavouring Preparations, Natural Flavouring Substances), Stabilisers (Methyl Cellulose, Agar), Starch, Salt, Pea Fibre, Citrus Fibre, Smoke Flavouring), Sunflower Oil, Panko Breadcrumbs (Wheat Flour, Yeast, Salt), Soy Protein, Algae Casing (Natural Polysaccharides, Water, Glycerin), Black Pepper, Sage, Parsley. ",
+      "allergens": "For allergens including cereals containing gluten, see ingredients in BOLD.",
+      "storage": "Keep frozen at -18°C or cooler. Important: If food has thawed, do not refreeze.",
+      "instructions": "Cooking Guidelines from Frozen: Remove all packaging. Shallow Fry: Place a small amount of cooking oil in a frying pan. Shallow fry for 12 minutes, turning occasionally. Oven Cook: Brush with cooking oil. Place on a baking tray and cook in a pre-heated oven at 200°C / 180°C Fan Assisted / Gas Mark 4 for 12 minutes, turning occasionally. Grill: Brush with cooking oil. Grill for 12 minutes, turning occasionally. Cooking times may vary. Cook throughout to a minimum temperature of 75°C for 30 seconds or apply national standards.",
+      "weights": "100G",
+      "case": "3.5KG"
+    }
   },
   {
     "index": 6,
     "name": "Curious Fillets",
     "img": "https://eat-curious.com/wp-content/uploads/2022/11/fillets-3-300x297.png",
-    "backgroundColor": "#1ABE71"
+    "backgroundColor": "#1ABE71",
+    "page": {
+      "variety": [
+        {
+          "name": "breaded",
+          "text": "Eat Curious fillets dusted in a crispy panko crumb, made from a special blend of pea protein and our curious flavours. Perfect to be served in a burger or sliced for a plant-based katsu curry.",
+          "backgroundColor": "#1ABE71",
+          "image": "https://eat-curious.com/wp-content/uploads/2022/12/CuriousFillet_Crop.png"
+        },
+        {
+          "name": "southern fried original",
+          "text": "Eat Curious fillets lightly dusted in a southern fried coating, made from a special blend of pea protein and our curious flavours. Served best on a soft, toasted bun with all your favorite toppings giving a mouth-watering zingy flavour.",
+          "backgroundColor": "#1ABE71",
+          "image": "https://eat-curious.com/wp-content/uploads/2022/12/CuriousFillet_Crop.png"
+        }
+      ],
+      "ingredients": "Water, Breading Coating (15.5%) (Rice Flour, Potato Starch, Tapioca Starch, Salt, Flavour Enhancer (Monosodium Glutamate), Ground Black Pepper, Pepper Blend (Salt, Pepper Extract), Garlic Powder, Onion Powder, Chilli Flakes, Sage Blend (Salt, Flavouring), Maltodextrin, Capsicum Extract), Pea Protein Powder (14%) (Pea Protein, Bamboo Fibre, Emulsifier (Methyl Cellulose), Natural Flavourings (Flavouring Preparations, Natural Flavouring Substances), Stabiliser (Sodium Alginate), Salt), Wheat Flour (contains Calcium Carbonate, Iron, Niacin, Thiamin), Wheat Gluten, Sunflower Oil, Garlic Powder, Smoked Paprika, Salt, Mixed Herbs, Black Pepper, Turmeric.",
+      "allergens": "For allergens, including Cereals containing Gluten, see ingredients in bold.",
+      "storage": "Keep frozen at -18°C or cooler. Important: If food has thawed, do not refreeze.",
+      "instructions": "Cooking Guidelines from Frozen: Remove all packaging. Deep Fry: Pre-heat fryer to correct temperature. Add product to basket and fry in hot oil (175°C) for 10 minutes. Oven Cook: Brush both sides with cooking oil. Place on a baking tray and cook in a pre-heated oven at 200°C/180°C Fan Assisted/Gas Mark 4 and cook for 15 minutes. Cooking times may vary. Cook throughout to a minimum temperature of 75°C for 30 seconds or equivalent or apply national standards.",
+      "weights": "100G",
+      "case": "2.5KG"
+    }
   }
 ]

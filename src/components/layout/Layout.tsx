@@ -8,6 +8,7 @@ import { MobileMenu } from "../navigation/MobileMenu";
 import { Logo } from "../../svg-components/Logo";
 import App from "../../App";
 import { Products } from "../products/Products";
+import { ProductsItem } from "../productsItem/ProductsItem";
 
 export const Layout = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +27,7 @@ export const Layout = () => {
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/products/:productId" element={<ProductsItem />} />
       </Routes>
     </>
   );

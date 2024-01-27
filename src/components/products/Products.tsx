@@ -62,13 +62,18 @@ export const Products = () => {
               onPointerCancel={handleMouseLeave}
               onMouseLeave={handleMouseLeave}
             >
-              <a href={`/product/${item.name}`}>{item.name}</a>
+              <a
+                href={`/products/${item.name.toLocaleLowerCase()}`}
+                onClick={() => localStorage.setItem("i", `${item.index}`)}
+              >
+                {item.name}
+              </a>
             </ProductListItem>
           ))}
       </ProductList>
       <div
         id="product-grid"
-        style={{ transition: "background-image s ease-in" }}
+        style={{ transition: "background-image 0.5s ease-in" }}
       >
         {/* top images */}
         <ProductBackImages $top={"-10%"} $left={"-10%"} />

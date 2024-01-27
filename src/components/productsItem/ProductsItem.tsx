@@ -5,6 +5,7 @@ import productsData from "../../data/products.json";
 
 import { ProductItemHeader } from "./ProductItemHeader";
 import { ProductDataType } from "../../PropTypes/ProductDataType";
+import { ProductInstructions } from "./ProductInstructions";
 
 export const ProductsItem = () => {
   const [data, setData] = useState<ProductDataType>();
@@ -23,6 +24,14 @@ export const ProductsItem = () => {
   return (
     <ProductsItemStyled>
       <ProductItemHeader title={data?.name} variety={data?.page.variety} />
+      <ProductInstructions
+        ingredients={data?.page.ingredients}
+        allergens={data?.page.allergens}
+        case={data?.page.case}
+        weights={data?.page.weights}
+        storage={data?.page.storage}
+        instructions={data?.page.instructions}
+      />
     </ProductsItemStyled>
   );
 };

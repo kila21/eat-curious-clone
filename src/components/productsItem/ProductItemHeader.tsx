@@ -14,6 +14,7 @@ export const ProductItemHeader = (props: ProductItemProps) => {
           {props.variety &&
             props.variety.map((v: VarietyType, index: number) => (
               <VarietyButton
+                key={v.name + index}
                 onClick={() => setIsActive(index)}
                 $active={index === isActive ? true : false}
                 $bc={v.backgroundColor}

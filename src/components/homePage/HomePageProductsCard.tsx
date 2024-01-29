@@ -10,9 +10,7 @@ export const HomePageProductsCard = (props: {
     <HomePageProductsCardStyled $bc={props.backgroundColor}>
       <CardTitle>{props.name}</CardTitle>
 
-      <CardImageContainer>
-        <CardImage src={props.img} />
-      </CardImageContainer>
+      <CardImage src={props.img} />
     </HomePageProductsCardStyled>
   );
 };
@@ -64,28 +62,7 @@ const CardTitle = styled.h3`
   }
 `;
 
-const CardImageContainer = styled.div`
-  position: relative;
-  object-fit: cover;
-  overflow: hidden;
-  width: 80%;
-  height: 100px;
-  margin-top: 50px;
-  margin-bottom: 0;
-
-  @media (min-width: 425px) {
-    height: 200px;
-  }
-  @media (min-width: 500px) and (max-width: 768px) {
-    height: 250px;
-  }
-  @media (min-width: 2000px) {
-    height: 450px;
-  }
-`;
-
 const CardImage = styled.img`
-  position: absolute;
   width: 100%;
   height: auto;
   display: block;

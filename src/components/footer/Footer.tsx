@@ -4,15 +4,15 @@ export const Footer = () => {
   return (
     <FooterStyled>
       <FooterMenuIcons>
-        <FooterMenuIconsItem $url="./svg/instagram.svg">
+        <FooterMenuIconsItem $url="../svg/instagram.svg">
           <a target="_blank" href="https://www.instagram.com/eat_curious/"></a>
         </FooterMenuIconsItem>
 
-        <FooterMenuIconsItem $url="./svg/facebook.svg">
+        <FooterMenuIconsItem $url="../svg/facebook.svg">
           <a target="_blank" href="https://www.facebook.com/eatcurious/"></a>
         </FooterMenuIconsItem>
 
-        <FooterMenuIconsItem $url="./svg/linkedin.svg">
+        <FooterMenuIconsItem $url="../svg/linkedin.svg">
           <a
             target="_blank"
             href="https://uk.linkedin.com/company/eat-curious"

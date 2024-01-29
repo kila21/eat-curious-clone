@@ -6,6 +6,7 @@ import productsData from "../../data/products.json";
 import { ProductItemHeader } from "./ProductItemHeader";
 import { ProductDataType } from "../../PropTypes/ProductDataType";
 import { ProductInstructions } from "./ProductInstructions";
+import { Footer } from "../footer/Footer";
 
 export const ProductsItem = () => {
   const [data, setData] = useState<ProductDataType>();
@@ -32,6 +33,7 @@ export const ProductsItem = () => {
         storage={data?.page.storage}
         instructions={data?.page.instructions}
       />
+      <Footer />
     </ProductsItemStyled>
   );
 };
